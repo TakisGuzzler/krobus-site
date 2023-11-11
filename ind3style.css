@@ -1,0 +1,29 @@
+/*General website aesthetics*/
+* {
+    background-color: rgb(64, 118, 135);
+    color: white;
+    text-align: center;
+}
+
+/*Styling of top button*/
+#arrowTop {
+    height: 9px;
+    width: 14px;
+    color: white;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+  }
+
+#arrowTop::before {
+    content: '▲';
+}
+
+#sewer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:auto;
+}
